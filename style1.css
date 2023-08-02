@@ -1,0 +1,57 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	font-size: 41px;
+
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	margin-top: 40px;
+	font-size: 32px;
+	margin-bottom: 10px;
+
+}
+
+h2 + p {
+	text-align: center;
+	color: white;
+}
+
+@media (max-width: 800px) {
+	#web1 {
+		flex-direction: column;
+	}
+}
+
+#web1 {
+	display: flex;
+	background-color: white;
+	justify-content: space-between;
+	align-items: center;
+	margin:40px 100px 45px 36px;
+	height: 100%;
+	width: 94%;
+}
+
+#web2 {
+	width: 44%;
+	margin: auto;
+	color: white;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+img {
+	height: 420px;
+}
+
+.webpage1 {
+	font-size: 45px;
+	text-align: center;
+
+}
+
